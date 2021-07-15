@@ -2,7 +2,7 @@
 # then splitting that string into parts using the colon character. Once you have accumulated the counts for each hour, print out the counts, one per line, 
 # sorted by hour as shown below.
 
-file = open("mbox-short.txt")
+file = open(input("Enter a file name: "))
 count = dict()
 for line in file:
     words = line.split()
