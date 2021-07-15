@@ -3,7 +3,7 @@
 # After all the data has been read, print the person with the most commits by creating a list of (count, email) tuples from the dictionary. 
 # Then sort the list in reverse order and print out the person who has the most commits.
 
-file = open("mbox-short.txt")
+file = open(input("Enter a file name: "))
 count = dict()
 for line in file:
     words = line.split()
