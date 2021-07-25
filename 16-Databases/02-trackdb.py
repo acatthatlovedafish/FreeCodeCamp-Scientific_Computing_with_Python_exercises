@@ -1,3 +1,5 @@
+# This application will read an iTunes export file in XML and produce a properly normalized database.
+
 import xml.etree.ElementTree as ET
 import sqlite3
 
