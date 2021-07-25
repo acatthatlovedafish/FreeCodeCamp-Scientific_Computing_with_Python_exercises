@@ -12,14 +12,14 @@ while True:
 
 # Error handling
     try:
-        user2 = float(user)
+        user = int(user)
     except:
         print("Invalid input")
         continue
 
     new_lst.append(user)
     count += 1
-    tot += user2
+    tot += user
     
 # The last line prints the count, the sum, the smallest number and the largest number
 print("Total count is: ",  count, "\nThe sum is: ", tot, "\nThe smallest number is: ", min(new_lst), "\nThe largest number is: ", max(new_lst))
